@@ -25,12 +25,9 @@
 		}
 	</style>
 
-
-
 </head>
+
 <body>
-
-
 
 <div id="map" style="width: 100vw; height: 100%;"></div>
 <script>
@@ -43,27 +40,27 @@
 		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">Devolution</a>'
 	}).addTo(map);
 
-	const marker = L.marker([51.5, -0.09]).addTo(map)
-		.bindPopup('<b>Hello world!</b><br />I am a popup.').openPopup();
+  //boxes for links with popups
+  const megagon_industries_sw = L.latLng(81.16875812380145, -55.95336914062501);
+  const megagon_industries_ne = L.latLng(82.04665216250261, -49.010009765625);
+  const bounds = [megagon_industries_sw, megagon_industries_ne];
 
-	const circle = L.circle([51.508, -0.11], {
-		color: 'red',
-		fillColor: '#f03',
-		fillOpacity: 0.5,
-		radius: 500
-	}).addTo(map).bindPopup('I am a circle.');
+  const rectangle = L.rectangle(bounds, {
+    color: "#66000000"
+  })
+  .bindPopup(`<a href=https://megagonindustries.com/ target="_blank" rel="noreferrer">Megagon Industries Website</a>`)
+  .addTo(map);
 
-	const polygon = L.polygon([
-		[51.509, -0.08],
-		[51.503, -0.06],
-		[51.51, -0.047]
-	]).addTo(map).bindPopup('I am a polygon.');
+  //<Rectangle
+  //  color="#66000000"
+  //  fillOpacity={0}
+  //>
+  //  <Popup>
+  //    <a href={constants.megagon_industries_URL } target="_blank" rel="noreferrer">Megagon Industries Website</a>
+  //  </Popup>
+  //</Rectangle>
 
-
-	const popup = L.popup()
-		.setLatLng([51.513, -0.09])
-		.setContent('I am a standalone popup.')
-		.openOn(map);
+  const popup = L.popup();
 
 	function onMapClick(e) {
 		popup
@@ -75,8 +72,6 @@
 	map.on('click', onMapClick);
 
 </script>
-
-
 
 </body>
 </html>
