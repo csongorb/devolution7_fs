@@ -90,12 +90,27 @@
         map.setView([51.2, 7], 9);
 
         L.tileLayer('https://csongorb.github.io/devolution7_fs/leaflet/CustomTiles/{z}/{x}/{y}.png', {
+            mapExtent: [0.00000000, -39288.00000000, 33000.00000000, 0.00000000],
             maxZoom: 8,
             minZoom: 2,
+            mapMaxResolution: 0.50000000,
+            mapMinResolution: Math.pow(2, 8) * 0.50000000,
+            tileExtent: [0.00000000, -39288.00000000, 33000.00000000, 0.00000000],
             attribution: 'Map data &copy; Devolution'
         }).addTo(map);
 
-        var marker = L.marker([51.2, 7]).addTo(map);
+
+
+
+
+        const megagon_industries_sw = L.latLng(81.16875812380145, -55.95336914062501);
+        const megagon_industries_ne = L.latLng(82.04665216250261, -49.010009765625);
+        const bounds = [megagon_industries_sw, megagon_industries_ne];
+        const rectangle = L.rectangle(bounds, {
+          color: "#66000000"
+        })
+        .bindPopup(`<a href=https://megagonindustries.com/ target="_blank" rel="noreferrer">Megagon Industries Website</a>`)
+        .addTo(map);
 
         var sidebar = L.control.sidebar('sidebar').addTo(map);
     </script>
