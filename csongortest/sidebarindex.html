@@ -99,9 +99,16 @@
             attribution: 'Map data &copy; Devolution'
         }).addTo(map);
 
+        // close sidebar
+        map.on('click', function() {
+            sidebar.close();
+        } );
 
-
-
+        L.marker([50.5, 30.5])
+        .addTo(map)
+        .on('click', function () {
+            sidebar.open('home');
+        });
 
         const megagon_industries_sw = L.latLng(81.16875812380145, -55.95336914062501);
         const megagon_industries_ne = L.latLng(82.04665216250261, -49.010009765625);
