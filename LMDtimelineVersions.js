@@ -67,7 +67,7 @@ var versionMarkers = L.layerGroup([markerAndroid001, markerAndroid003, markerAnd
 .addTo(map);
 
 var overlayMaps = {
-    "Versions": versionMarkers
+    "Playable Versions": versionMarkers
 };
 
 var layerControl = L.control.layers(overlayMaps, overlayMaps, {hideSingleBase: true, collapsed: false})
