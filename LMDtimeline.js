@@ -17,10 +17,4 @@ map.on('click', function() {
     sidebar.close();
 } );
 
-L.marker([50.5, 30.5])
-.addTo(map)
-.on('click', function () {
-    sidebar.open('home');
-});
-
 var sidebar = L.control.sidebar('sidebar').addTo(map);
