@@ -2,9 +2,15 @@
 
 // 001.apk
 var markerAndroid001 = L.marker([80.30163, -88.69263])
-.bindPopup("Android 001")
+.bindPopup(`<h3 align="center">Android 003</h3>
+            <div align="center">
+              <small>Polished Prototype</small><br />
+              October 19th 2015<br />
+              <img src="images/versions/android_003_small.jpg" width="150" height="150" alt="Android_001"></img><br />
+              <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/151019_downhill_003.apk"><img src="images/platforms/androidicon.png" width="40" height="40" alt="Android"></img></a><br />
+            </div>`)
 .on('click', function () {
-    sidebar.open('profile');
+    //sidebar.open('profile');
 });
 
 // 003.apk
