@@ -214,6 +214,6 @@ var bounds = [megagon_industries_sw, megagon_industries_ne];
 var rectangle = L.rectangle(bounds, {
   color: "#66000000"
 })
-.bindPopup(`<iframe width="300" height="169" src="https://www.youtube.com/embed/IPbK53UtYL0?si=yD4QgN9ZpvycmqK1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
+.bindPopup(`<div data-service="youtube" data-id="sYr0hDZ3-QY" data-autoscale data-iframe-id="myYoutubeEmbed"></div>`)
+//.bindPopup(`<iframe width="300" height="169" src="https://www.youtube.com/embed/IPbK53UtYL0?si=yD4QgN9ZpvycmqK1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
 .addTo(map);
-
