@@ -151,5 +151,10 @@ var overlayMaps = {
     "Playable Versions": versionMarkers
 };
 
+// Function to fly to a location
+function flyToLocation(lat, lng) {
+    map.flyTo([lat, lng], 5); // Adjust zoom level as needed
+}
+
 var layerControl = L.control.layers(overlayMaps, overlayMaps, {hideSingleBase: true, collapsed: false})
 .addTo(map);
