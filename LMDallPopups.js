@@ -217,3 +217,98 @@ var rectangle = L.rectangle(bounds, {
 .bindPopup(`<div data-service="youtube" data-id="sYr0hDZ3-QY" data-autoscale data-iframe-id="myYoutubeEmbed"></div>`)
 //.bindPopup(`<iframe width="300" height="169" src="https://www.youtube.com/embed/IPbK53UtYL0?si=yD4QgN9ZpvycmqK1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
 .addTo(map);
+
+
+var circleOptions = {
+  color: "#000066", 
+  fillColor: "#000066", 
+  fillOpacity: 0.5 
+};
+
+var kickstarter_interview_bubenik_center = L.latLng(84.06756838040903, -90.41748046875001);
+var circle_bubenik = L.circle(kickstarter_interview_bubenik_center, 50000, circleOptions) 
+.bindPopup(`<a href="https://www.redbull.com/ca-en/lonely-mountains-downhill-kickstarter-interview" target="_blank" rel="noreferrer">Kickstarter Interview</a>`)
+.addTo(map);
+
+var kickstarter_interview_bubenik2_center = L.latLng(72.02854424228212, -50.67993164062501);
+var circle_bubenik2 = L.circle(kickstarter_interview_bubenik2_center, 100000, circleOptions) 
+.bindPopup(`<a href="https://www.redbull.com/ca-en/lonely-mountains-downhill-kickstarter-interview" target="_blank" rel="noreferrer">Kickstarter Interview</a>`)
+.addTo(map);
+
+var kickstarter_interview_helbig_center = L.latLng(83.4007996617237, -99.39331054687501);
+var circle_helbig = L.circle(kickstarter_interview_helbig_center, 50000, circleOptions) 
+.bindPopup(`<a href="https://www.redbull.com/ca-en/lonely-mountains-downhill-kickstarter-interview" target="_blank" rel="noreferrer">Kickstarter Interview</a>`)
+.addTo(map);
+
+var igf_interview_center = L.latLng(80.91906707076518, -78.07983398437501);
+L.circle(igf_interview_center, 50000, circleOptions)
+  .bindPopup(`<a href="https://www.gamedeveloper.com/disciplines/road-to-the-igf-megagon-industries-i-lonely-mountains-downhill-i-" target="_blank" rel="noreferrer">IGF Interview</a>`)
+  .addTo(map);
+
+
+var making_games_centers_small =[
+  { center: L.latLng(73.5738184440644, -79.68383789062501), url: "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" },
+  { center: L.latLng(73.78989382063298, -107.08374023437501), url: "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" },
+  
+]
+
+making_games_centers_small.forEach(function(item) {
+  L.circle(item.center, 100000, circleOptions)
+    .bindPopup(`<a href="${item.url}" target="_blank" rel="noreferrer">Making Games PDF</a>`)
+    .addTo(map);
+});
+
+
+var making_games_centers = [
+  { center: L.latLng(62.003998999884374, -80.27709960937501), url: "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" },
+  { center: L.latLng(48.96579381461063, -66.03881835937501), url: "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" },
+  { center: L.latLng(45.47554027158593, -107.67700195312501), url: "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" },
+  { center: L.latLng(51.07315848415202, -75.81665039062501), url: "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" },
+  { center: L.latLng(-5.922044619883305, -59.07348632812501), url: "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" },
+  { center: L.latLng(-24.26699728841817, -101.17309570312501), url: "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" },
+];
+
+making_games_centers.forEach(function(item) {
+  L.circle(item.center, 200000, circleOptions)
+    .bindPopup(`<a href="${item.url}" target="_blank" rel="noreferrer">Making Games PDF</a>`)
+    .addTo(map);
+});
+
+var making_games_centers_big = L.latLng(-17.853290114098012, -62.39135742187501);
+L.circle(making_games_centers_big, 450000, circleOptions)
+  .bindPopup(`<a href="https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" target="_blank" rel="noreferrer">Making Games PDF</a>`)
+  .addTo(map);
+
+
+var eggplant_interview_centers_1 = L.latLng(-15.77110917357528, -44.26391601562501);
+L.circle(eggplant_interview_centers_1, 350000, circleOptions)
+  .bindPopup(`<a href="https://eggplant.show/63-finding-your-own-path-with-daniel-helbig" target="_blank" rel="noreferrer">Eggplant Interview</a>`)
+  .addTo(map);
+
+  var eggplant_interview_centers_1 = L.latLng(71.42227937635714, -100.096435546875);
+L.circle(eggplant_interview_centers_1, 100000, circleOptions)
+  .bindPopup(`<a href="https://eggplant.show/63-finding-your-own-path-with-daniel-helbig" target="_blank" rel="noreferrer">Eggplant Interview</a>`)
+  .addTo(map);
+
+var eighty_lv_interview_centers = [
+  { center: L.latLng(61.1707946011717, -52.36083984375), url: "https://80.lv/articles/level-game-production-lonely-mountains-downhill" },
+  { center: L.latLng(12.833226023521243, -117.58666992187501), url: "https://80.lv/articles/level-game-production-lonely-mountains-downhill" },
+  { center: L.latLng(-16.93070509876553, -117.894287109375), url: "https://80.lv/articles/level-game-production-lonely-mountains-downhill" },
+  { center: L.latLng(-11.070602913977806, -33.32153320312501), url: "https://80.lv/articles/level-game-production-lonely-mountains-downhill" }
+];
+
+eighty_lv_interview_centers.forEach(function(item) {
+  L.circle(item.center, 300000, circleOptions)
+    .bindPopup(`<a href="${item.url}" target="_blank" rel="noreferrer">80 Level Interview</a>`)
+    .addTo(map);
+});
+
+var syndrone_podcast_center = L.latLng(51.193115244645874, -96.05346679687501);
+L.circle(syndrone_podcast_center, 200000, circleOptions)
+  .bindPopup(`<a href="https://indiegameinternational.libsyn.com/lukas-meinardus-and-alex-binderer-syndrone-hell-pie" target="_blank" rel="noreferrer">Syndrone Podcast</a>`)
+  .addTo(map);
+
+var bubenik_podcast_center = L.latLng(-25.443274612305746, -83.682861328125);
+L.circle(bubenik_podcast_center, 400000, circleOptions)
+  .bindPopup(`<a href="https://okcool.podigee.io/6-jan-bubenik" target="_blank" rel="noreferrer">Bubenik Podcast</a>`)
+  .addTo(map);
