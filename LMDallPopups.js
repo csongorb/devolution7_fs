@@ -81,7 +81,7 @@ var bounds = [megagon_industries_sw, megagon_industries_ne];
 var rectangle = L.rectangle(bounds, {
   color: "#66000000"
 })
-.bindPopup(`<iframe width="300" height="169" src="https://www.youtube.com/embed/_-KESI3qIBg?si=rw2U2Ueoi1O-H_N8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
+.bindPopup(`<iframe width="300" height="169" src="https://www.youtube-nocookie.com/embed/_-KESI3qIBg?si=rw2U2Ueoi1O-H_N8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
 .addTo(map);
 
 //Skiing Yeti Mountains Gameplay
@@ -91,7 +91,7 @@ var bounds = [megagon_industries_sw, megagon_industries_ne];
 var rectangle = L.rectangle(bounds, {
   color: "#66000000"
 })
-.bindPopup(`<iframe width="300" height="169" src="https://www.youtube.com/embed/ojY8gIuQ8VI?si=97axGFIcGsb0pW6_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
+.bindPopup(`<iframe width="300" height="169" src="https://www.youtube-nocookie.com/embed/ojY8gIuQ8VI?si=97axGFIcGsb0pW6_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
 .addTo(map);
 
 //Lara Croft Go Gameplay
@@ -101,7 +101,7 @@ var bounds = [megagon_industries_sw, megagon_industries_ne];
 var rectangle = L.rectangle(bounds, {
   color: "#66000000"
 })
-.bindPopup(`<iframe width="300" height="169" src="https://www.youtube.com/embed/Ox-9IOBbJnM?si=UGdTg5afCsR_Rcjm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
+.bindPopup(`<iframe width="300" height="169" src="https://www.youtube-nocookie.com/embed/Ox-9IOBbJnM?si=UGdTg5afCsR_Rcjm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
 .addTo(map);
 
 //And then it rained Launch Trailer
@@ -111,7 +111,7 @@ var bounds = [megagon_industries_sw, megagon_industries_ne];
 var rectangle = L.rectangle(bounds, {
   color: "#66000000"
 })
-.bindPopup(`<iframe width="300" height="169" src="https://www.youtube.com/embed/R7g7UlFlMA8?si=MJ07_b5FJbjVdHbD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
+.bindPopup(`<iframe width="300" height="169" src="https://www.youtube-nocookie.com/embed/R7g7UlFlMA8?si=MJ07_b5FJbjVdHbD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
 .addTo(map);
 
 
@@ -122,7 +122,7 @@ var bounds = [megagon_industries_sw, megagon_industries_ne];
 var rectangle = L.rectangle(bounds, {
   color: "#66000000"
 })
-.bindPopup(`<iframe width="300" height="169" src="https://www.youtube.com/embed/x97HDeZO5ME?si=y2wMX4p4W_fhJ3tV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
+.bindPopup(`<iframe width="300" height="169" src="https://www.youtube-nocookie.com/embed/x97HDeZO5ME?si=y2wMX4p4W_fhJ3tV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
 .addTo(map);
 
 //Lonely Mountains: Downhill - Climate Change Edition
@@ -132,7 +132,7 @@ var bounds = [megagon_industries_sw, megagon_industries_ne];
 var rectangle = L.rectangle(bounds, {
   color: "#66000000"
 })
-.bindPopup(`<iframe width="300" height="169" src="https://www.youtube.com/embed/sc5Wynoihs0?si=r2n70KFGDKWUj9oQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
+.bindPopup(`<iframe width="300" height="169" src="https://www.youtube-nocookie.com/embed/sc5Wynoihs0?si=r2n70KFGDKWUj9oQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
 .addTo(map);
 
 
@@ -143,7 +143,7 @@ var bounds = [megagon_industries_sw, megagon_industries_ne];
 var rectangle = L.rectangle(bounds, {
   color: "#66000000"
 })
-.bindPopup(`<iframe width="300" height="169" src="https://www.youtube.com/embed/Dj8MOIxOdUY?si=3N1LBiyHSdrh8CEx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
+.bindPopup(`<iframe width="300" height="169" src="https://www.youtube-nocookie.com/embed/Dj8MOIxOdUY?si=3N1LBiyHSdrh8CEx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
 .addTo(map);
 
 //LONELY MOUNTAINS: DOWNHILL EXCLUSIVE FIRST LOOK! (Developer Demo Gameplay)
@@ -153,7 +153,7 @@ var bounds = [megagon_industries_sw, megagon_industries_ne];
 var rectangle = L.rectangle(bounds, {
   color: "#66000000"
 })
-.bindPopup(`<iframe width="300" height="169" src="https://www.youtube.com/embed/e0qrvuNWofk?si=ixwzA74jqdUYDc5h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
+.bindPopup(`<iframe width="300" height="169" src="https://www.youtube-nocookie.com/embed/e0qrvuNWofk?si=ixwzA74jqdUYDc5h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
 .addTo(map);
 
 //Lonely Mountains: Downhill - Launch Trailer | PS4
@@ -163,7 +163,7 @@ var bounds = [megagon_industries_sw, megagon_industries_ne];
 var rectangle = L.rectangle(bounds, {
   color: "#66000000"
 })
-.bindPopup(`<iframe width="300" height="169" src="https://www.youtube.com/embed/nfJxYa3kt5U?si=6jLfhRBVBBS-x_sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
+.bindPopup(`<iframe width="300" height="169" src="https://www.youtube-nocookie.com/embed/nfJxYa3kt5U?si=6jLfhRBVBBS-x_sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
 .addTo(map);
 
 
@@ -174,7 +174,7 @@ var bounds = [megagon_industries_sw, megagon_industries_ne];
 var rectangle = L.rectangle(bounds, {
   color: "#66000000"
 })
-.bindPopup(`<iframe width="300" height="169" src="https://www.youtube.com/embed/qpM_C2eSm-0?si=991itD917H0z09OA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
+.bindPopup(`<iframe width="300" height="169" src="https://www.youtube-nocookie.com/embed/qpM_C2eSm-0?si=991itD917H0z09OA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
 .addTo(map);
 
 //Lonely Mountains: Downhill - "Eldfjall Island" Trailer - OUT NOW
@@ -184,7 +184,7 @@ var bounds = [megagon_industries_sw, megagon_industries_ne];
 var rectangle = L.rectangle(bounds, {
   color: "#66000000"
 })
-.bindPopup(`<iframe width="300" height="169" src="https://www.youtube.com/embed/RFCKVPaETUk?si=szpxIvBJQBRUxjIu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
+.bindPopup(`<iframe width="300" height="169" src="https://www.youtube-nocookie.com/embed/RFCKVPaETUk?si=szpxIvBJQBRUxjIu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
 .addTo(map);
 
 //Lonely Mountains: Downhill - Riley's Return Free DLC Trailer
@@ -194,7 +194,7 @@ var bounds = [megagon_industries_sw, megagon_industries_ne];
 var rectangle = L.rectangle(bounds, {
   color: "#66000000"
 })
-.bindPopup(`<iframe width="300" height="169" src="https://www.youtube.com/embed/jiqFO3n6vJ4?si=5gr0gsTSWsUsYu7b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
+.bindPopup(`<iframe width="300" height="169" src="https://www.youtube-nocookie.com/embed/jiqFO3n6vJ4?si=5gr0gsTSWsUsYu7b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
 .addTo(map);
 
 //LMD Culling 01 80lv
@@ -204,7 +204,7 @@ var bounds = [megagon_industries_sw, megagon_industries_ne];
 var rectangle = L.rectangle(bounds, {
   color: "#66000000"
 })
-.bindPopup(`<iframe width="300" height="169" src="https://www.youtube.com/embed/rfRRMA3o-Zs?si=lH2di7JHXQX3gggN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
+.bindPopup(`<iframe width="300" height="169" src="https://www.youtube-nocookie.com/embed/rfRRMA3o-Zs?si=lH2di7JHXQX3gggN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
 .addTo(map);
 
 //Lonely Mountains: Downhill - Misty Peak Free DLC Trailer
@@ -215,7 +215,7 @@ var rectangle = L.rectangle(bounds, {
   color: "#66000000"
 })
 .bindPopup(`<div data-service="youtube" data-id="sYr0hDZ3-QY" data-autoscale data-iframe-id="myYoutubeEmbed"></div>`)
-//.bindPopup(`<iframe width="300" height="169" src="https://www.youtube.com/embed/IPbK53UtYL0?si=yD4QgN9ZpvycmqK1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
+//.bindPopup(`<iframe width="300" height="169" src="https://www.youtube-nocookie.com/embed/IPbK53UtYL0?si=yD4QgN9ZpvycmqK1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`)
 .addTo(map);
 
 
