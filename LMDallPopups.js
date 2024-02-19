@@ -220,23 +220,23 @@ var rectangle = L.rectangle(bounds, {
 
 
 var circleOptions = {
-  color: "#000066", 
-  fillColor: "#000066", 
-  fillOpacity: 0.5 
+  color: "",
+  fillColor: "#000066",
+  fillOpacity: 0.0
 };
 
 var kickstarter_interview_bubenik_center = L.latLng(84.06756838040903, -90.41748046875001);
-var circle_bubenik = L.circle(kickstarter_interview_bubenik_center, 50000, circleOptions) 
+var circle_bubenik = L.circle(kickstarter_interview_bubenik_center, 50000, circleOptions)
 .bindPopup(`<a href="https://www.redbull.com/ca-en/lonely-mountains-downhill-kickstarter-interview" target="_blank" rel="noreferrer">Kickstarter Interview</a>`)
 .addTo(map);
 
 var kickstarter_interview_bubenik2_center = L.latLng(72.02854424228212, -50.67993164062501);
-var circle_bubenik2 = L.circle(kickstarter_interview_bubenik2_center, 100000, circleOptions) 
+var circle_bubenik2 = L.circle(kickstarter_interview_bubenik2_center, 100000, circleOptions)
 .bindPopup(`<a href="https://www.redbull.com/ca-en/lonely-mountains-downhill-kickstarter-interview" target="_blank" rel="noreferrer">Kickstarter Interview</a>`)
 .addTo(map);
 
 var kickstarter_interview_helbig_center = L.latLng(83.4007996617237, -99.39331054687501);
-var circle_helbig = L.circle(kickstarter_interview_helbig_center, 50000, circleOptions) 
+var circle_helbig = L.circle(kickstarter_interview_helbig_center, 50000, circleOptions)
 .bindPopup(`<a href="https://www.redbull.com/ca-en/lonely-mountains-downhill-kickstarter-interview" target="_blank" rel="noreferrer">Kickstarter Interview</a>`)
 .addTo(map);
 
@@ -249,7 +249,7 @@ L.circle(igf_interview_center, 50000, circleOptions)
 var making_games_centers_small =[
   { center: L.latLng(73.5738184440644, -79.68383789062501), url: "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" },
   { center: L.latLng(73.78989382063298, -107.08374023437501), url: "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" },
-  
+
 ]
 
 making_games_centers_small.forEach(function(item) {
