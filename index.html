@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.7.2/leaflet.ie.css" /><![endif]-->
 
-    <link rel="stylesheet" href="sidebar-v2/css/leaflet-sidebar.css" />
+    <link rel="stylesheet" href="leaflet-sidebar-v2/css/leaflet-sidebar.css" />
 
     <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/fontawesome.css" />
     <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/solid.css" />
@@ -34,11 +34,11 @@
 </head>
 <body>
 
-    <div id="sidebar" class="sidebar collapsed">
+    <div id="sidebar" class="leaflet-sidebar collapsed">
 
         <!-- Nav tabs -->
         <!-- https://fontawesome.com/search?o=r&m=free&s=solid -->
-        <div class="sidebar-tabs">
+        <div class="leaflet-sidebar-tabs">
             <ul role="tablist">
                 <li><a href="#home" role="tab"><i class="fa-solid fa-seedling"></i></a></li>
                 <li><a href="#lmd" role="tab"><i class="fa-solid fa-mountain"></i></a></li>
@@ -53,10 +53,10 @@
             </ul>
         </div>
 
-        <!-- Tab panes -->
-        <div class="sidebar-content">
-            <div class="sidebar-pane" id="home">
-                <h1 class="sidebar-header">Devolution #7<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+        <!-- Tab panes --> 
+        <div class="leaflet-sidebar-content">
+            <div class="leaflet-sidebar-pane" id="home">
+                <h1 class="leaflet-sidebar-header">Devolution #7<span class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
 
                 <p align="justify">
                   <a target="_blank" rel="noopener noreferrer" href="https://devolution.online">Devolution</a> is exploring and dissecting the creative process of game development, encountering new characteristics with every new edition.
@@ -135,9 +135,9 @@
 
             </div>
 
-            <div class="sidebar-pane" id="lmd">
+            <div class="leaflet-sidebar-pane" id="lmd">
 
-              <h1 class="sidebar-header">Lonely Mountains: Downhill<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+              <h1 class="leaflet-sidebar-header">Lonely Mountains: Downhill<span class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
 
               <h2>The Evolution of Lonely Mountains: Downhill</h2>
               <p align="justify">
@@ -175,8 +175,8 @@
             </div>
 
 
-            <div class="sidebar-pane" id="versions">
-                <h1 class="sidebar-header">Playable Versions<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+            <div class="leaflet-sidebar-pane" id="versions">
+                <h1 class="leaflet-sidebar-header">Playable Versions<span class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
 
                 <p align="justify">
                   Downloadable early prototypes and in-between versions of Lonely Mountains: Downhill.
@@ -310,8 +310,13 @@
 
             </div>
 
-            <div class="sidebar-pane" id="amaze">
-                <h1 class="sidebar-header">@ A MAZE. / Berlin<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+            <div class="leaflet-sidebar-pane" id="amaze">
+                <h1 class="leaflet-sidebar-header">@ A MAZE. / Berlin 2023<span class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+
+                <p align="justify">
+                  This online exhibition is an accompanying element of an <a target="_blank" rel="noopener noreferrer" href="https://2023.amaze-berlin.de/schedule/">on-site exhibition</a> at the 12th International Games and Playful Media Festival <a target="_blank" rel="noopener noreferrer" href="https://2023.amaze-berlin.de/schedule/">A MAZE. / Berlin 2023</a>.<br />
+                </p>
+
                 <p align="justify">
                   The physical exhibition focuses on the development process of Lonely Mountains: Downhill by displaying several in-between versions of the game, from early prototypes to later iterations. Visitors can explore the creative process behind the development, encountering new insights with each version they play and each comparison they make.<br />
                 </p>
@@ -332,8 +337,8 @@
 
             </div>
 
-            <div class="sidebar-pane" id="credits">
-                <h1 class="sidebar-header">Credits<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+            <div class="leaflet-sidebar-pane" id="credits">
+                <h1 class="leaflet-sidebar-header">Credits<span class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
 
                 <h2>Partners</h2>
 
@@ -385,18 +390,21 @@
 
             </div>
 
-            <div class="sidebar-pane" id="impressum">
-                <h1 class="sidebar-header">Impressum<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+            <div class="leaflet-sidebar-pane" id="privacy">
+                <h1 class="leaflet-sidebar-header">Privacy Policy<span class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+            </div>
+
+            <div class="leaflet-sidebar-pane" id="imprint">
+                <h1 class="leaflet-sidebar-header">Imprint<span class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
             </div>
         </div>
     </div>
 
-    <div id="map" class="sidebar-map"></div>
-
-    <a href="https://github.com/Turbo87/sidebar-v2/"><img style="position: fixed; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+    <!--div id="map" class="sidebar-map"></div-->
+    <div id="map"></div>
 
     <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
-    <script src="sidebar-v2/js/leaflet-sidebar.js"></script>
+    <script src="leaflet-sidebar-v2/js/leaflet-sidebar.js"></script>
 
     <script src="LMDtimeline.js"></script>
     <script src="LMDallPopups.js"></script>
