@@ -10,14 +10,19 @@ L.tileLayer('leaflet/CustomTiles/{z}/{x}/{y}.png', {
     zoomSnap: 0.2,
     mapMaxResolution: 0.50000000,
     mapMinResolution: Math.pow(2, 8) * 0.50000000,
-    noWrap: true,
-    attribution: '&copy; Devolution'
+    noWrap: true
+    // attribution: '&copy; Devolution'
 }).addTo(map);
 
 // close sidebar
 map.on('click', function() {
     sidebar.close();
 } );
+
+// remove original Leaflet attribution (will be added to Credits)
+map.attributionControl.setPrefix(false);
+// add individual attribution
+map.attributionControl.addAttribution(`<a onclick="sidebar.open('privacy')" href="#">Privacy Policy</a> &VerticalLine; <a onclick="sidebar.open('imprint')" href="#">Imprint</a>`);
 
 // tool: show location of mouse-click
 //map.on('click', function(ev) {

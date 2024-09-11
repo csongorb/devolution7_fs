@@ -148,7 +148,7 @@ var versionMarkers = L.layerGroup([markerAndroid001, markerAndroid003, markerAnd
 .addTo(map);
 
 var overlayMaps = {
-    "Playable Versions": versionMarkers
+    "Show Playable Versions": versionMarkers
 };
 
 // Function to fly to a location
