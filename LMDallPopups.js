@@ -246,8 +246,8 @@ L.circle(igf_interview_center, 50000, circleOptions)
 
 
 var making_games_centers_small =[
-  { center: L.latLng(73.5738184440644, -79.68383789062501), url: "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" },
-  { center: L.latLng(73.78989382063298, -107.08374023437501), url: "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" },
+  { center: L.latLng(73.5738184440644, -79.68383789062501), url: "pdfs/MakingGames_20_11_LonelyMountains.pdf" },
+  { center: L.latLng(73.78989382063298, -107.08374023437501), url: "pdfs/MakingGames_20_11_LonelyMountains.pdf" },
 ]
 
 making_games_centers_small.forEach(function(item) {
@@ -258,12 +258,12 @@ making_games_centers_small.forEach(function(item) {
 
 
 var making_games_centers = [
-  { center: L.latLng(62.003998999884374, -80.27709960937501), url: "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" },
-  { center: L.latLng(48.96579381461063, -66.03881835937501), url: "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" },
-  { center: L.latLng(45.47554027158593, -107.67700195312501), url: "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" },
-  { center: L.latLng(51.07315848415202, -75.81665039062501), url: "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" },
-  { center: L.latLng(-5.922044619883305, -59.07348632812501), url: "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" },
-  { center: L.latLng(-24.26699728841817, -101.17309570312501), url: "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" },
+  { center: L.latLng(62.003998999884374, -80.27709960937501), url: "pdfs/MakingGames_20_11_LonelyMountains.pdf" },
+  { center: L.latLng(48.96579381461063, -66.03881835937501), url: "pdfs/MakingGames_20_11_LonelyMountains.pdf" },
+  { center: L.latLng(45.47554027158593, -107.67700195312501), url: "pdfs/MakingGames_20_11_LonelyMountains.pdf" },
+  { center: L.latLng(51.07315848415202, -75.81665039062501), url: "pdfs/MakingGames_20_11_LonelyMountains.pdf" },
+  { center: L.latLng(-5.922044619883305, -59.07348632812501), url: "pdfs/MakingGames_20_11_LonelyMountains.pdf" },
+  { center: L.latLng(-24.26699728841817, -101.17309570312501), url: "pdfs/MakingGames_20_11_LonelyMountains.pdf" },
 ];
 
 making_games_centers.forEach(function(item) {
@@ -274,7 +274,7 @@ making_games_centers.forEach(function(item) {
 
 var making_games_centers_big = L.latLng(-17.853290114098012, -62.39135742187501);
 L.circle(making_games_centers_big, 450000, circleOptions)
-  .bindPopup(`<center><a href="https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing" target="_blank" rel="noreferrer">Making Games:</br>Making of Lonely Mountais: Downhill (PDF)</a></center>`)
+  .bindPopup(`<center><a href="pdfs/MakingGames_20_11_LonelyMountains.pdf" target="_blank" rel="noreferrer">Making Games:</br>Making of Lonely Mountais: Downhill (PDF)</a></center>`)
   .addTo(map);
 
 
