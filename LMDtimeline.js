@@ -36,3 +36,6 @@ var sidebar = L.control.sidebar({
     container: 'sidebar', // the DOM container or #ID of a predefined sidebar container that should be used
     position: 'left',     // left or right
 }).addTo(map);
+
+// auto-open sidebar at start
+sidebar.open(('home'));
