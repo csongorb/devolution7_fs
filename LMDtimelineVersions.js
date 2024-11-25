@@ -156,5 +156,5 @@ function flyToLocation(lat, lng) {
     map.flyTo([lat, lng], 5); // Adjust zoom level as needed
 }
 
-var layerControl = L.control.layers(overlayMaps, overlayMaps, {hideSingleBase: true, collapsed: false})
+var layerControl = L.control.layers(null, overlayMaps, {hideSingleBase: true, collapsed: false})
 .addTo(map);
