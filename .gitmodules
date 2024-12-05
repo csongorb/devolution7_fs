@@ -1,6 +1,0 @@
-[submodule "leaflet-sidebar-v2"]
-	path = leaflet-sidebar-v2
-	url = https://github.com/noerw/leaflet-sidebar-v2.git
-[submodule "iframemanager"]
-	path = iframemanager
-	url = https://github.com/orestbida/iframemanager.git
