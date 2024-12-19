@@ -22,7 +22,8 @@ map.on('click', function() {
 // remove original Leaflet attribution (will be added to Credits)
 map.attributionControl.setPrefix(false);
 // add individual attribution
-map.attributionControl.addAttribution(`<a onclick="sidebar.open('privacy')" href="#">Privacy Policy</a> &VerticalLine; <a onclick="sidebar.open('imprint')" href="#">Imprint</a>`);
+//map.attributionControl.addAttribution(`<a onclick="sidebar.open('privacy')" href="#">Privacy Policy</a> &VerticalLine; <a onclick="sidebar.open('imprint')" href="#">Imprint</a>`);
+map.attributionControl.addAttribution(`<a target="_blank" rel="noopener" href="https://devolution.online/privacypolicy/">Privacy Policy</a> &VerticalLine; <a target="_blank" rel="noopener" href="https://devolution.online/imprint/">Imprint</a>`);
 
 // tool: show location of mouse-click
 //map.on('click', function(ev) {
