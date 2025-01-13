@@ -1,0 +1,90 @@
+Initialize engine version: 5.4.0f3 (a6d8d714de6f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\Rewired_Core.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\Rewired_Core.dll into Unity Child Domain
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\Rewired_Windows_Lib.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\Rewired_Windows_Lib.dll into Unity Child Domain
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\UnityEngine.CrashLog.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\UnityEngine.CrashLog.dll into Unity Child Domain
+- Completed reload, in  0.055 seconds
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3200x1080 at 0,0
+<RI> Initializing input.
+<RI.Hid> Failed to create device file:
+ 2 Das System kann die angegebene Datei nicht finden.
+
+ 
+(Filename:  Line: 54)
+
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.774640 ms
+Non platform assembly: data-14BA3AF0 (this message is harmless)
+Fallback handler could not load library D:/-- Work --/-- Projekte --/Megagon Industries/Downhill/BitbucketServer/DownhillUnity/Build/Windows/downhill_win_32bit_Data/Mono/data-14BA3AF0.dll
+Non platform assembly: data-14BF5008 (this message is harmless)
+Fallback handler could not load library D:/-- Work --/-- Projekte --/Megagon Industries/Downhill/BitbucketServer/DownhillUnity/Build/Windows/downhill_win_32bit_Data/Mono/data-14BF5008.dll
+Non platform assembly: data-1831A020 (this message is harmless)
+Fallback handler could not load library D:/-- Work --/-- Projekte --/Megagon Industries/Downhill/BitbucketServer/DownhillUnity/Build/Windows/downhill_win_32bit_Data/Mono/data-1831A020.dll
+Fallback handler could not load library D:/-- Work --/-- Projekte --/Megagon Industries/Downhill/BitbucketServer/DownhillUnity/Build/Windows/downhill_win_32bit_Data/Mono/steam_api
+Fallback handler could not load library D:/-- Work --/-- Projekte --/Megagon Industries/Downhill/BitbucketServer/DownhillUnity/Build/Windows/downhill_win_32bit_Data/Mono/.\steam_api
+Fallback handler could not load library D:/-- Work --/-- Projekte --/Megagon Industries/Downhill/BitbucketServer/DownhillUnity/Build/Windows/downhill_win_32bit_Data/Mono/steam_api
+Fallback handler could not load library D:/-- Work --/-- Projekte --/Megagon Industries/Downhill/BitbucketServer/DownhillUnity/Build/Windows/downhill_win_32bit_Data/Mono/libsteam_api
+Fallback handler could not load library D:/-- Work --/-- Projekte --/Megagon Industries/Downhill/BitbucketServer/DownhillUnity/Build/Windows/downhill_win_32bit_Data/Mono/.\libsteam_api
+Fallback handler could not load library D:/-- Work --/-- Projekte --/Megagon Industries/Downhill/BitbucketServer/DownhillUnity/Build/Windows/downhill_win_32bit_Data/Mono/libsteam_api
+Fallback handler could not load library D:/-- Work --/-- Projekte --/Megagon Industries/Downhill/BitbucketServer/DownhillUnity/Build/Windows/downhill_win_32bit_Data/Mono/steam_api
+Fallback handler could not load library D:/-- Work --/-- Projekte --/Megagon Industries/Downhill/BitbucketServer/DownhillUnity/Build/Windows/downhill_win_32bit_Data/Mono/.\steam_api
+Fallback handler could not load library D:/-- Work --/-- Projekte --/Megagon Industries/Downhill/BitbucketServer/DownhillUnity/Build/Windows/downhill_win_32bit_Data/Mono/steam_api
+Fallback handler could not load library D:/-- Work --/-- Projekte --/Megagon Industries/Downhill/BitbucketServer/DownhillUnity/Build/Windows/downhill_win_32bit_Data/Mono/libsteam_api
+Fallback handler could not load library D:/-- Work --/-- Projekte --/Megagon Industries/Downhill/BitbucketServer/DownhillUnity/Build/Windows/downhill_win_32bit_Data/Mono/.\libsteam_api
+Fallback handler could not load library D:/-- Work --/-- Projekte --/Megagon Industries/Downhill/BitbucketServer/DownhillUnity/Build/Windows/downhill_win_32bit_Data/Mono/libsteam_api
+Rewired: Searching for compatible XInput library...
+Rewired: Found Xinput1_3.dll.
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\BitbucketServer\DownhillUnity\Build\Windows\downhill_win_32bit_Data\Managed\System.Xml.dll (this message is harmless)
+No event with name: InputMethod_HasChanged
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Shader 'Standard Vegetation': fallback shader 'DiffuseVegetation' not found
+No event with name: ChangeLanguage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+No event with name: PlayerInstanceUpdated
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 576 unused Assets to reduce memory usage. Loaded Objects now: 2706.
+Total: 6.771178 ms (FindLiveObjects: 0.105968 ms CreateObjectMapping: 0.082553 ms MarkObjects: 6.463179 ms  DeleteObjects: 0.119177 ms)
+
+Cannot normalize zero length Vector2D
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Cannot normalize zero length Vector2D
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2808 -> priority: 1 
+  Thread -> id: 5160 -> priority: 1 
