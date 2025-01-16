@@ -1,0 +1,103 @@
+Initialize engine version: 5.6.2p1 (8a29de46e0a0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   22.21.13.8541
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\Mystery Node Set.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\Mystery Node Set.dll into Unity Child Domain
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\Mystery Squiggle UI.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\Mystery Squiggle UI.dll into Unity Child Domain
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\Mystery Squiggle.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\Mystery Squiggle.dll into Unity Child Domain
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\Rewired_Core.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\Rewired_Core.dll into Unity Child Domain
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\Rewired_Windows_Lib.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\Rewired_Windows_Lib.dll into Unity Child Domain
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\TextMeshPro.dll (this message is harmless)
+Loading D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\TextMeshPro.dll into Unity Child Domain
+- Completed reload, in  0.025 seconds
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 2944x1280 at 0,-122
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.943209 ms
+Non platform assembly: data-0F7D8010 (this message is harmless)
+Fallback handler could not load library D:/-- Work --/-- Projekte --/Megagon Industries/Downhill/Downhill_Git/Build/Windows/LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data/Mono/data-0F7D8010.dll
+Non platform assembly: data-1335C870 (this message is harmless)
+Fallback handler could not load library D:/-- Work --/-- Projekte --/Megagon Industries/Downhill/Downhill_Git/Build/Windows/LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data/Mono/data-1335C870.dll
+Non platform assembly: data-14508020 (this message is harmless)
+Fallback handler could not load library D:/-- Work --/-- Projekte --/Megagon Industries/Downhill/Downhill_Git/Build/Windows/LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data/Mono/data-14508020.dll
+Rewired: Searching for compatible XInput library...
+Rewired: Found Xinput1_4.dll.
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\System.Xml.dll (this message is harmless)
+Shader 'Megagon/Special/Template/Standard VertexColor Vegetation': fallback shader 'DiffuseVegetation' not found
+Platform assembly: D:\-- Work --\-- Projekte --\Megagon Industries\Downhill\Downhill_Git\Build\Windows\LonelyMountains_Downhill_InfiniteMinuteBackerDemo_Win_x86_Data\Managed\Mono.Security.dll (this message is harmless)
+Could not initialize FollowCamera, because no high priority target (= player) was found.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+'Player.Active' property does not describe required 'isLocalPlayer' state once online multiplayer is implemented!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Tracking of CameraModifier requires improvement (non critical performance / GC issue)!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 1287 unused Assets to reduce memory usage. Loaded Objects now: 12080.
+Total: 15.472590 ms (FindLiveObjects: 0.839041 ms CreateObjectMapping: 0.504625 ms MarkObjects: 13.463093 ms  DeleteObjects: 0.665229 ms)
+
+Parameter not supported: Gameplay_DistTotal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Parameter not supported: Gameplay_BoostRatioTotal
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Parameter not supported: Gameplay_TimeAvrg
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Parameter not supported: Gameplay_DistAvrg
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Parameter not supported: Gameplay_TimeMedian
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Parameter not supported: Gameplay_DistMedian
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 16436.
+Total: 14.203370 ms (FindLiveObjects: 0.675135 ms CreateObjectMapping: 0.209535 ms MarkObjects: 13.290781 ms  DeleteObjects: 0.027017 ms)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 23320 -> priority: 1 
+  Thread -> id: 22804 -> priority: 1 
+  Thread -> id: 22b18 -> priority: 1 
+  Thread -> id: 23380 -> priority: 1 
