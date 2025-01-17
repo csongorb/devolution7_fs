@@ -19,6 +19,7 @@ jobs:
           **/.git*/**
           **/node_modules/**
           **/leaflet/**
+          **/fontawesome-free-6.5.1-web/**
           **/iframemanager/**
           **/images/**
           **/leaflet-sidebar-v2/**
