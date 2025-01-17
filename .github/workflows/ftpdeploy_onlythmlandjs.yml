@@ -1,5 +1,5 @@
 on: workflow_dispatch
-name: 🚀 Deploy to FTP (exclude leaflet-tiles)
+name: 🚀 Deploy to FTP (ONLY html & js)
 jobs:
   web-deploy:
     name: 🎉 Deploy
@@ -15,7 +15,5 @@ jobs:
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         exclude: |
-          **/.git*
-          **/.git*/**
-          **/node_modules/**
-          **/leaflet/**
+          !**.yml
+          !**.js
