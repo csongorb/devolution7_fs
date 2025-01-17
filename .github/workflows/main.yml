@@ -1,5 +1,4 @@
-on: push
-name: 🚀 Deploy to FTP on push
+name: 🚀 Deploy to FTP (exclude leaflet-tiles)
 jobs:
   web-deploy:
     name: 🎉 Deploy
@@ -14,3 +13,8 @@ jobs:
         server: ftp.devolution.online
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          **/leaflet/**
