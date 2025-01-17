@@ -1,5 +1,5 @@
 on: workflow_dispatch
-name: 🚀 Deploy to FTP (ONLY leaflet-tiles)
+name: 🚀 Deploy to FTP (all)
 jobs:
   web-deploy:
     name: 🎉 Deploy
@@ -14,5 +14,3 @@ jobs:
         server: ftp.devolution.online
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        exclude: |
-          !**/leaflet/**

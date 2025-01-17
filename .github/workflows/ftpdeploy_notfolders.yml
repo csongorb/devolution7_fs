@@ -1,5 +1,5 @@
 on: workflow_dispatch
-name: 🚀 Deploy to FTP (ONLY html & js)
+name: 🚀 Deploy to FTP (NOT folders)
 jobs:
   web-deploy:
     name: 🎉 Deploy
@@ -15,5 +15,7 @@ jobs:
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         exclude: |
-          !**.yml
-          !**.js
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          **//**
