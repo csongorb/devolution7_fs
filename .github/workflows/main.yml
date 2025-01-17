@@ -1,3 +1,4 @@
+on: workflow_dispatch
 name: 🚀 Deploy to FTP (exclude leaflet-tiles)
 jobs:
   web-deploy:
