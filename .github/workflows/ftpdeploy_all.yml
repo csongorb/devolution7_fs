@@ -12,5 +12,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ftp.df-127107.csongorb.com
+        port: 21
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
